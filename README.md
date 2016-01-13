@@ -17,6 +17,4 @@ Translation Status
 
 ----
 
-Odoo Argentina(http://odoo-argentina.org/), is a nonprofit organization whose
-mission is to support the collaborative development of Odoo Argentina Localization
-features and promote its widespread use.
+ODOO ARGENTINA (http://odoo-argentina.org/), is a nonprofit organization whose mission is to support the collaborative development of Odoo features and promote its widespread use.

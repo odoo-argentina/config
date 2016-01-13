@@ -33,22 +33,22 @@ addons:
 env:
   global:
   - VERSION="9.0" TESTS="0" LINT_CHECK="0" TRANSIFEX="0"
-  - TRANSIFEX_USER='odoo-argentina-transbot'
+  - TRANSIFEX_USER='jjscarafia'
   # This line contains the encrypted transifex password
   # To encrypt transifex password, install travis ruby utils with:
   #   $ gem install travis --user-install
   # and use:
   #   $ travis encrypt TRANSIFEX_PASSWORD=your-password -r owner/project
-  # - secure: PjP88tPSwimBv4tsgn3UcQAD1heK/wcuSaSfhi2xUt/jSrOaTmWzjaW2gH/eKM1ilxPXwlPGyAIShJ2JJdBiA97hQufOeiqxdkWDctnNVVEDx2Tk0BiG3PPYyhXPgUZ+FNOnjZFF3pNWvzXTQaB0Nvz8plqp93Ov/DEyhrCxHDs=
+  - secure: EGT5hfpUBSqeodfDqtj0WQhv7G73Z3eZrWlvsp3+4iYnI7iN4LohJvFuoRgt68ZW140a6594qmYzHhk3OucMU6lBw/vYn1G8118W3L7KYRjdq/iP0gpV/ZrBre4itfxYC33Z6gXssAk7F6l8aoeRUGHX6Bd9J0SESSwQtBzIHoxGZLyC0ANjtwYC5hk0yzSpygIs8RDQs53w7H+CVl4RfNWcT77QgSxjyHmmCZ12venQn3tPthJbgswCX5xfKUDLCJgYgNswkevXZGapH3muX7QaYopkDc2qED7xROVuZUcjD1tUHjMDkN+sQfxNMJPeccJnbRFYkqo9B+2KTg7ClfqZn3vCWXAfzAuHI0OXtdzXMwd8xtc7y06mpRX496mvPLLxiqSl9n6qBducA/RUn9upJwolxhmuSgJu7lFhOeXujypX8JShk9ZTZu2q0Edt9llrrsX33pHCcF4rDbk68F3Yl+3ZZFEK7rYDOkRtN4nBzeQBvSgtXXul2qll2gVKJaAsoqPi26F5kBpWW3UaGixKVSqCL4rZO9AXFH/2XSxsxwQzSH8VdGaBU5R3+rykXEALLzh9Ru8pVaPtvzvnUn+RfWme+k/FOk/BF6/OmSck1cfB+Ma7Owfg9tTRvtJsjYuhDbo2c9xwJc9VYxaRrOkwgDmJukg4yhPvJWVRS18=
   # Use the following lines if you need to manually change the transifex project slug or/and the transifex organization.
   # The default project slug is owner-repo_name-version (with dash in the version string).
   # The default organization is the owner of the repo.
   # The default fill up resources (TM) is True.
   # The default team is 23907. https://www.transifex.com/organization/oca/team/23907/
   # - TRANSIFEX_PROJECT_SLUG=
-  # - TRANSIFEX_ORGANIZATION=
+  - TRANSIFEX_ORGANIZATION='odoo-argentina'
   # - TRANSIFEX_FILL_UP_RESOURCES=
-  # - TRANSIFEX_TEAM=
+  - TRANSIFEX_TEAM='58916'
 
   matrix:
   - LINT_CHECK="1"

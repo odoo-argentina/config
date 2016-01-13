@@ -1,7 +1,7 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/${REPO_ID}/9.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-config-${REPO_ID})
-[![Build Status](https://travis-ci.org/odoo-argentina/config.svg?branch=9.0)](https://travis-ci.org/OCA/config)
-[![Coverage Status](https://coveralls.io/repos/OCA/config/badge.svg?branch=9.0&service=github)](https://coveralls.io/github/OCA/config?branch=9.0)
-[![Code Climate](https://codeclimate.com/github/OCA/config/badges/gpa.svg)](https://codeclimate.com/github/OCA/config)
+[![Runbot Status](https://runbot.odoo-argentina.org/runbot/badge/flat/${REPO_ID}/${BRANCH_NAME}.svg)](https://runbot.odoo-argentina.org/runbot/repo/github-com-odoo-argentina-${REPO_NAME}-${REPO_ID})
+[![Build Status](https://travis-ci.org/odoo-argentina/config.svg?branch=9.0)](https://travis-ci.org/odoo-argentina/config)
+[![Coverage Status](https://coveralls.io/repos/odoo-argentina/config/badge.svg?branch=9.0&service=github)](https://coveralls.io/github/odoo-argentina/config?branch=9.0)
+[![Code Climate](https://codeclimate.com/github/odoo-argentina/config/badges/gpa.svg)](https://codeclimate.com/github/odoo-argentina/config)
 
 # Configuration Modules
 

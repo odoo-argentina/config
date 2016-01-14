@@ -21,13 +21,18 @@ class argentinian_base_configuration(models.TransientModel):
         help="""Installs the l10n_ar_chart_generic module.""")
     module_l10n_ar_bank = fields.Boolean(
         'Banks of Argentina',
-        help="""Installs the l10n_ar_bank module that create banks of Argetina based on a webservice""")
+        help="Installs the l10n_ar_bank module that create banks of Argetina "
+        " based on a webservice")
     module_l10n_ar_base_vat = fields.Boolean(
         'Argentinian VAT validation',
-        help="""Installs the l10n_ar_base_vat module that extends base_vat modules so that you can add argentinian VATs (usually called cuit/cuil)""")
+        help="Installs the l10n_ar_base_vat module that extends base_vat"
+        " modules so that you can add argentinian VATs (usually called"
+        "cuit/cuil)")
     module_l10n_ar_invoice = fields.Boolean(
         'Argentinian invoicing and other documents Management',
-        help="""Installs the l10n_ar_invoice module. It creates some clases to manage afip functionality, for example document class, journal class, document letters, vat categories, etc.""")
+        help="Installs the l10n_ar_invoice module. It creates some clases"
+        " to manage afip functionality, for example document class, journal"
+        " class, document letters, vat categories, etc.")
     module_l10n_ar_partner_title = fields.Boolean(
         'Partner reference and titles usually used in Argentina',
         help="""Installs the l10n_ar_partner_title module. """)
@@ -55,9 +60,6 @@ class argentinian_base_configuration(models.TransientModel):
     module_l10n_ar_chart_generic_withholding = fields.Boolean(
         'Add generic withholding management.',
         help="""Installs the l10n_ar_chart_generic_withholding module. """)
-
-
-    # 'default_coding_method':fields.selection([('category','Based on the Category'), ('group','Based on Major / Sub Groups')], required=True, default_model='product.product'),
 
     # Sales
     module_l10n_ar_invoice_sale = fields.Boolean(

@@ -222,8 +222,7 @@
 		</record>
 
 		<!-- Base Config Settings Menu -->
-		<menuitem id="menu_argentinian_base_configuration" action="action_argentinian_base_configuration"
-			name="Argentinian Localization" parent="base.menu_config" sequence="100" />
+		<menuitem id="menu_argentinian_base_configuration" action="action_argentinian_base_configuration" name="Argentinian Localization" parent="base.menu_administration" sequence="2" />
 
 	</data>
 </openerp>

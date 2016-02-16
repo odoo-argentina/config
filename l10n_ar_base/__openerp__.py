@@ -18,6 +18,7 @@
         'res_config_view.xml',
     ],
     'demo': [
+        'demo/res_company.xml',
     ],
     'test': [
     ],
